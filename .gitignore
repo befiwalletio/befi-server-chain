@@ -1,0 +1,11 @@
+.idea
+node_modules
+
+*.lock
+*.log
+/socket_ethereum_newi.js
+test.js
+package-lock.json
+testlogs.js
+testnft.js
+testtrx.js

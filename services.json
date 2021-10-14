@@ -1,0 +1,177 @@
+{
+  "apps": [
+    {
+      "name": "BEE_ENGINE_ETH",
+      "namespace": "CHAIN_ETH",
+      "script": "./scanner/engine_eth.js",
+      "node_args": "--expose-gc --max-old-space-size=1024",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    },
+    {
+      "name": "BEE_HISTORY_ETH",
+      "namespace": "CHAIN_ETH",
+      "script": "./scanner/history_eth.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    },
+    {
+      "name": "BEE_UTOKENS_ETH",
+      "namespace": "CHAIN_ETH",
+      "script": "./scanner/utokens_eth.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      }
+    },
+    {
+      "name": "BEE_ENGINE_MATIC",
+      "namespace": "CHAIN_MATIC",
+      "script": "./scanner/engine_matic.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    },
+    {
+      "name": "BEE_HISTORY_MATIC",
+      "namespace": "CHAIN_MATIC",
+      "script": "./scanner/history_matic.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    },
+    {
+      "name": "BEE_ENGINE_BNB",
+      "namespace": "CHAIN_BNB",
+      "script": "./scanner/engine_bnb.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    },
+    {
+      "name": "BEE_HISTORY_BNB",
+      "namespace": "CHAIN_BNB",
+      "script": "./scanner/history_bnb.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    },
+    {
+      "name": "BEE_ENGINE_TRUE",
+      "namespace": "CHAIN_TRUE",
+      "script": "./scanner/engine_true.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    },
+    {
+      "name": "BEE_HISTORY_TRUE",
+      "namespace": "CHAIN_TRUE",
+      "script": "./scanner/history_true.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    },
+    {
+      "name": "BEE_ENGINE_TRX",
+      "namespace": "CHAIN_TRX",
+      "script": "./scanner/engine_trx.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    },
+    {
+      "name": "BEE_HISTORY_TRX",
+      "namespace": "CHAIN_TRX",
+      "script": "./scanner/history_trx.js",
+      "watch": false,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "ignore_watch" : ["node_modules"],
+      "env": {
+        "NODE_ENV": "production",
+        "watch": false
+      },
+      "env_test": {
+        "NODE_ENV": "test",
+        "watch": true
+      }
+    }
+  ]
+}

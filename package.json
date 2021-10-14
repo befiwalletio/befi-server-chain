@@ -1,0 +1,45 @@
+{
+  "name": "chain_service",
+  "version": "1.0.0",
+  "description": "chain service，Used by BeeFinance for block data scanning and storage",
+  "author": "BeeFinance",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=11.0.0"
+  },
+  "keywords": [
+    "BeeFinance",
+    "JavaScript",
+    "API"
+  ],
+  "dependencies": {
+    "@nanoexpress/middleware-body-parser": "^1.2.1",
+    "abi-decoder": "^2.4.0",
+    "ali-rds": "^3.4.0",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "caver-js-ext-kas": "^1.9.0",
+    "colors": "^1.4.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "decimal.js": "^10.3.1",
+    "ejs": "^3.1.6",
+    "express-serializer": "^1.0.1",
+    "express-session": "^1.17.1",
+    "keccak256": "^1.0.2",
+    "md5": "^2.3.0",
+    "mongoose": "^5.12.9",
+    "mysql": "^2.18.1",
+    "nanoexpress": "^4.2.0",
+    "rds": "^0.8.12",
+    "redis": "^3.1.2",
+    "request": "^2.88.2",
+    "require-all": "^3.0.0",
+    "tronweb": "^4.0.0",
+    "uuid": "^8.3.2",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
