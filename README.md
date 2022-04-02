@@ -1,6 +1,5 @@
-#  BeeFinance Chain Service
+#  BeFi Wallet Chain Service
 ![image](https://img.shields.io/badge/license-Apache2.0-blue.svg)
-![image](https://img.shields.io/badge/author-BeeFinance-green.svg)
 
 
 ##### Used by BeFi for block data scanning and storage
