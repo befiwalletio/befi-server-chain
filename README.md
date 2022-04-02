@@ -3,7 +3,7 @@
 ![image](https://img.shields.io/badge/author-BeeFinance-green.svg)
 
 
-##### Used by BeeFinance for block data scanning and storage
+##### Used by BeFi for block data scanning and storage
 
 ---
 
